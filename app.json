@@ -1,13 +1,13 @@
 {
-  "name": "Heroku RDP 24/7 #WhiteDevil",
+  "name": "heroku-docker-nginx-example",
   "description": "A barebones nginx installation using Docker",
   "repository": "https://github.com/rjoonas/heroku-docker-nginx-example",
-  "logo": "https://telegra.ph/file/d398f0087cc5133d57102.jpg",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg",
   "keywords": ["nginx", "docker", "proxy"],
   "stack": "container",
   "formation": {
     "worker": {
-      "quantity": 1,
+      "quantity": "1",
       "size": "standard-2x"
     }
   }
