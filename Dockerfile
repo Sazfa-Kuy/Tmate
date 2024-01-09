@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ghcr.io/sushrut1101/docker:latest
 
 # Use baseimage-docker's init system:
 CMD ["/sbin/my_init"]
