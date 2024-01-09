@@ -1,4 +1,4 @@
-FROM ghcr.io/sushrut1101/docker:latest
+FROM debian:latest
 
 # Use baseimage-docker's init system:
 CMD ["/sbin/my_init"]
