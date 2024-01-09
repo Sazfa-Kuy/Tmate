@@ -11,7 +11,8 @@ chmod 777 tmate
     sleep 3
 }
 
-while [ -e /var/tmate.sock ]
+while true
 do
-    sleep 1
+        echo "My Work"
+        sleep 60
 done
