@@ -6,8 +6,8 @@
   "keywords": ["nginx", "docker", "proxy"],
   "stack": "container",
   "formation": {
-    "web": {
-      "quantity": "1",
+    "worker": {
+      "quantity": 1,
       "size": "standard-2x"
     }
   }
