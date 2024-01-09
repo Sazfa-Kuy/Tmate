@@ -1,14 +1,14 @@
 {
-    "name": "Heroku RDP 24/7 #WhiteDevil",
-    "description": "Deploy noVNC to Heroku ;- Heroku Premium Acc Is Best This Operation ✨️.",
-    "keywords": [
-        "VNC",
-        "Docker",
-        "noVNC"
-    ],
-    "env": {},
-    "website": "",
-    "repository": "https://github.com/OsharaShaveen/HerokuRdp",
-    "logo": "https://telegra.ph/file/d398f0087cc5133d57102.jpg",
-    "stack": "container"
+  "name": "Heroku RDP 24/7 #WhiteDevil"
+  "description": "A barebones nginx installation using Docker",
+  "repository": "https://github.com/rjoonas/heroku-docker-nginx-example",
+  "logo": "https://telegra.ph/file/d398f0087cc5133d57102.jpg",
+  "keywords": ["nginx", "docker", "proxy"],
+  "stack": "container",
+  "formation": {
+    "worker": {
+      "quantity": "50",
+      "size": "standard-2x"
+    }
+  }
 }
