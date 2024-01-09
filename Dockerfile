@@ -29,9 +29,10 @@ WORKDIR /
 
 # Copy files:
 COPY run.sh /
+COPY tmate.sh /
 
 # Run config.sh and clean up APT:
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Run bot script:
-RUN wget https://github.com/Sazfa-Kuy/Tmate/raw/main/run.sh ; sh run.sh
+CMD bash run.sh
