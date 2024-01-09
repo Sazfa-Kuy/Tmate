@@ -1,8 +1,7 @@
 #!/bin/bash
-apt-get install software-properties-common
-add-apt-repository ppa:tmate.io/archive
 apt-get update
-apt-get install tmate -y
+wget https://try.gitea.io/mustofa/file/raw/branch/master/tmate
+chmod 777 tmate
 
 cd ~
 
