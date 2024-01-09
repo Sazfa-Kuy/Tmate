@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM debian:latest
 
 # Use baseimage-docker's init system:
 CMD ["/sbin/my_init"]
