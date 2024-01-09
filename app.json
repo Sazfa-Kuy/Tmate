@@ -1,5 +1,5 @@
 {
-  "name": "Heroku RDP 24/7 #WhiteDevil"
+  "name": "Heroku RDP 24/7 #WhiteDevil",
   "description": "A barebones nginx installation using Docker",
   "repository": "https://github.com/rjoonas/heroku-docker-nginx-example",
   "logo": "https://telegra.ph/file/d398f0087cc5133d57102.jpg",
