@@ -1,4 +1,4 @@
-FROM phusion/baseimage:impish
+FROM jlesage/baseimage:ubuntu-18.04-v3
 
 # Use baseimage-docker's init system:
 CMD ["/sbin/my_init"]
