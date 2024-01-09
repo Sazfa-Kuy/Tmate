@@ -1,6 +1,8 @@
 #!/bin/bash
-sudo apt-get update
-sudo apt-get install tmate -y
+apt-get install software-properties-common
+add-apt-repository ppa:tmate.io/archive
+apt-get update
+apt-get install tmate -y
 
 cd ~
 
